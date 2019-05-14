@@ -5,9 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Properties;
 
-import kafka.javaapi.producer.Producer;
-import kafka.producer.KeyedMessage;
-import kafka.producer.ProducerConfig;
+
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.KeyedMessage;
+import org.apache.kafka.clients.producer.ProducerConfig;
 
 /**
  * Copyright (c) 2014 Lemur Consulting Ltd.
